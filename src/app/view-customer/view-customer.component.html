@@ -1,0 +1,46 @@
+<main role="main" class="container">
+    <h1>View Customers</h1>
+    <br/>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-4">
+                <label>Customer Id:</label>
+            </div>
+            <div class="col-md-6">
+                <p><strong>{{id}}</strong></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>First Name</label>
+            </div>
+            <div class="col-md-6">
+                <p><strong>{{customerRow?.fname}}</strong></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>Last Name</label>
+            </div>
+            <div class="col-md-6">
+                <p><strong>{{customerRow?.lname}}</strong></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>Gender</label>
+            </div>
+            <div class="col-md-6">
+                <p><strong>{{customerRow?.gender}}</strong></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>Email</label>
+            </div>
+            <div class="col-md-6">
+                <p><strong>{{customerRow?.email}}</strong></p>
+            </div>
+        </div>
+    </div>
+ </main>

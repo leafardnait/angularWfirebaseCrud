@@ -15,10 +15,19 @@
     "@angular/common": "~8.2.14",
     "@angular/compiler": "~8.2.14",
     "@angular/core": "~8.2.14",
+    "@angular/fire": "^5.4.2",
     "@angular/forms": "~8.2.14",
+    "@angular/http": "^7.2.16",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@ng-bootstrap/ng-bootstrap": "^5.2.3",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "firebase": "^7.8.2",
+    "jquery": "^3.4.1",
+    "mysql": "^2.18.1",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
@@ -43,5 +52,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.",
+  "main": "karma.conf.js",
+  "author": "",
+  "license": "ISC"
 }
